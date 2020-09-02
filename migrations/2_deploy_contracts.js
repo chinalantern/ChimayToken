@@ -1,5 +1,5 @@
-const ChimayToken = artifacts.require("ChimayToken");
+const ChimayToken = artifacts.require("ChimayToken");	// contract abstraction
 
 module.exports = function(deployer) {
-  deployer.deploy(ChimayToken);
+  deployer.deploy(ChimayToken, 1000000);
 };
